@@ -35,7 +35,7 @@ class SSE:
         e_message_ID = []
         # encryption
         encryption_time = []
-        for j in range(int(average_number)):
+        for j in range(average_number):
             number = keyword_number
             keyword_number_time_start = time.time()
             for message_ID in message_ID_file:
@@ -86,7 +86,7 @@ class SSE:
         e_message_ID2word = {}
         # encryption
         encryption_time = []
-        for j in range(int(average_number)):
+        for j in range(average_number):
             number = keyword_document_pairs
             keyword_document_time_start = time.time()
             for message_ID in message_ID2word:
@@ -119,7 +119,7 @@ class SSE:
         search_time = []
         #count number of keyword
         keyword_number=0
-        for j in range(int(average_number)):
+        for j in range(average_number):
             number = keyword_document_pairs
             keyword_document_time_start = time.time()
             for message_ID in message_ID2word:
@@ -138,7 +138,7 @@ class SSE:
         # print(search_time)
         print('Average time(search):', np.average(search_time))
         print('Minimun time(search):', np.min(search_time))
-        print('count number of keyword:',keyword_number/int(average_number))
+        print('count number of keyword:',keyword_number/average_number)
 if __name__=='__main__':
     test = SSE()
     #input
