@@ -167,10 +167,7 @@ if __name__=='__main__':
     #     message_ID_file=json.load(f2r)
     # fig2_read_end = time.time()
     # print('fig2_read_time:',fig2_read_end-fig2_read_start)
-    # fig2_encryption_start = time.time()
     # test.e_message_ID(message_ID_file,e_message_ID_filename,average_number,keyword_number)
-    # fig2_encryption_end = time.time()
-    # print('fig2_encryption:',fig2_encryption_end-fig2_encryption_start)
 
 
     #fig 3
@@ -183,11 +180,8 @@ if __name__=='__main__':
     # with open('./output/' + ID2word_filename + '.json', 'r', encoding='utf-8') as f2r:
     #     message_ID2word=json.load(f2r)
     # fig3_read_end = time.time()
-    # print('fig2_read_time:',fig3_read_end-fig3_read_start)
-    # fig3_encryption_start = time.time()
+    # print('fig3_read_time:',fig3_read_end-fig3_read_start)
     # test.e_ID2word(message_ID2word,e_message_ID2word_filename,average_number,keyword_document_pairs)
-    # fig3_encryption_end = time.time()
-    # print('fig3_encryption_time',fig3_encryption_end-fig3_encryption_start)
 
 
 
