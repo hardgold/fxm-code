@@ -163,7 +163,7 @@ if __name__=='__main__':
     # keyword_number = input('input number of keyword_number:')
     # keyword_number = int(keyword_number)
     # fig2_read_start = time.time()
-    # with open('./output/' + e_message_ID_filename + '.json', 'r', encoding='utf-8') as f2r:
+    # with open('./output/' + message_ID_filename + '.json', 'r', encoding='utf-8') as f2r:
     #     message_ID_file=json.load(f2r)
     # fig2_read_end = time.time()
     # print('fig2_read_time:',fig2_read_end-fig2_read_start)
